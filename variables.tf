@@ -13,7 +13,3 @@ variable "kubernetes_cluster_endpoint" {
 variable "kubernetes_cluster_name" {
   type = string
 }
-
-variable "eks_nodegroup_id" {
-  type = string
-}
